@@ -1,0 +1,51 @@
+<LinearLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+ xmlns:tools="http://schemas.android.com/tools"
+ android:layout_width="match_parent"
+ android:layout_height="match_parent"
+ android:orientation="vertical"
+ tools:context=".MainActivity">
+ <TextView
+ android:id="@+id/tV1"
+ android:layout_width="match_parent"
+ android:layout_height="wrap_content"
+ android:textSize="20dp"
+ android:text="Send Email"
+ android:textStyle="bold" />
+ <!-- Edit text for email id -->
+ <EditText
+ android:id="@+id/et1_emailid"
+ android:layout_width="match_parent"
+ android:layout_height="wrap_content"
+ android:layout_marginTop="30dp"
+ android:layout_marginEnd="22dp"
+ android:hint="Enter you email id"
+ android:inputType="textEmailAddress"/>
+ <!-- Edit text for email subject -->
+ <EditText
+ android:id="@+id/et2_emailsub"
+ android:layout_width="match_parent"
+ android:layout_height="wrap_content"
+ android:layout_marginTop="20dp"
+Created by Shivanjali Kesharwani
+St. Francis College
+ android:hint="Enter you email subject"
+ android:inputType="textEmailSubject"/>
+ <!-- Edit text for email body -->
+ <EditText
+ android:id="@+id/et3_emailmsg"
+ android:layout_width="match_parent"
+ android:layout_height="200dp"
+ android:layout_marginTop="30dp"
+ android:ems="100"
+ android:hint="Enter you email message"
+ android:inputType="textLongMessage"/>
+ <!-- Button to send email -->
+ <Button
+ android:id="@+id/btn_Send"
+ android:layout_width="wrap_content"
+ android:layout_height="wrap_content"
+ android:layout_marginLeft="76dp"
+ android:layout_marginTop="20dp"
+ android:text="Send email!!" />
+</LinearLayout>
