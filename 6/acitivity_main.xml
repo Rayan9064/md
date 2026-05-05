@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/
+android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+ <TextView
+ android:id="@+id/textView"
+ android:layout_width="match_parent"
+ android:layout_height="wrap_content"
+ android:text="@string/heading" />
+
+ <Button
+ android:id="@+id/buttonExample"
+ android:layout_width="match_parent"
+ android:layout_height="wrap_content"
+ android:text="@string/example_button" />
+
+ <CheckBox
+ android:id="@+id/checkBoxExample"
+ android:layout_width="match_parent"
+ android:layout_height="wrap_content"
+ android:text="@string/checkbox_example" />
+
+ <ToggleButton
+ android:id="@+id/toggleButtonExample"
+ android:layout_width="wrap_content"
+ android:layout_height="wrap_content"
+android:text="@string/togglebutton_example"
+ android:textOn="@string/on"
+ android:textOff="@string/off"
+ />
+
+ <RadioGroup
+ android:id="@+id/radioGroupExample"
+ android:layout_width="wrap_content"
+ android:layout_height="wrap_content" >
+
+ <RadioButton
+ android:id="@+id/radioBtn1"
+ android:layout_width="wrap_content"
+ android:layout_height="wrap_content"
+ android:checked="true"
+ android:text="@string/radiobutton_1"
+/>
+
+ <RadioButton
+ android:id="@+id/radioBtn2"
+ android:layout_width="wrap_content"
+ android:layout_height="wrap_content"
+ android:text="@string/radiobutton_2"
+/>
+
+<RadioButton
+ android:id="@+id/radioBtn3"
+ android:layout_width="wrap_content"
+ android:layout_height="wrap_content"
+ android:text="@string/radiobutton_3"
+/>
+ </RadioGroup>
+
+ <ImageButton
+ android:id="@+id/imageButtonExample"
+ android:layout_width="match_parent"
+ android:layout_height="wrap_content"
+ android:src="@drawable/baseline_add_ic_call_24"
+ android:contentDescription="@string/todo"
+/>
+</LinearLayout>
